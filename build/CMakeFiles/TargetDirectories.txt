@@ -1,0 +1,3 @@
+D:/library-catalog/build/CMakeFiles/library-catalog.dir
+D:/library-catalog/build/CMakeFiles/edit_cache.dir
+D:/library-catalog/build/CMakeFiles/rebuild_cache.dir

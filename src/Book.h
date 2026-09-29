@@ -2,6 +2,12 @@
 #include <string>
 
 class Book {
+    private:
+    std::string title_;
+    std::string author_;
+    int year_;
+    int pages_;
+
 public:
     Book(std::string title, std::string author, int year, int pages);
 
@@ -12,9 +18,4 @@ public:
 
     bool isOlderThan(int year) const;
 
-private:
-    std::string title_;
-    std::string author_;
-    int year_;
-    int pages_;
 };

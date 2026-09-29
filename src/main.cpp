@@ -1,10 +1,14 @@
 #include <iostream>
 #include <vector>
+#include <locale>
 #include "Book.h"
-
+ 
 using namespace std;
 
 int main() {
+    
+    setlocale(LC_ALL, "ukr");
+
     cout << "Варіант 1: Каталог бібліотеки\n";
 
     vector<Book> items = {
